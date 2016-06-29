@@ -19,9 +19,7 @@ private:
   inline void unSetNumber(const int unSetNumber, const int y, const int x);
 
   vector<vector<int>> _table;
-  vector<vector<bool>> _row;
-  vector<vector<bool>> _col;
-  vector<vector<bool>> _box;
+  vector<vector<bool>> _row, _col, _box;
   int _solved;
 };
 
