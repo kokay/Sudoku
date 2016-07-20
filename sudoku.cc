@@ -47,8 +47,7 @@ void Sudoku::Solve(const int y, const int x) {
   
   if (_table[y][x] != 0) {
     Solve(nextY, nextX);
-  }
-  else {
+  } else {
     for (int i = 1;i <= 9;++i) {
       if (!isValidNumber(i, y, x)) continue;
       
